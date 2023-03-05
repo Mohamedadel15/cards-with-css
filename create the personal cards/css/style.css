@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+*{
+    margin: 0%; padding: 0%;
+   box-sizing: border-box;
+}
+.cards{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 100px;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    border-radius: 20px;
+    margin: 300px auto;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 4px 4px 4px rgba(170, 170, 170, 0.644);
+    justify-content: space-between;
+    align-items: center;
+}
+.cards .image img{ 
+   width: 95px;
+   margin: 5px 0px 2px 5px;
+   border-radius: 16px;
+   box-shadow: 2px 0 5px 0 rgba(0, 0, 0, 0.5);
+    
+}
+.cards .paragraph{
+    width: 100%;
+    margin: 0 0 0 20px;
+}
+.cards .paragraph h2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif,serif,monospace;
+    font-style: italic;
+    font-weight:bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 4px 4px 4px rgba(126, 126, 126, 0.74);
+}
+
+.cards .paragraph p{
+    margin: 2px 0 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.87);
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.cards .true-false{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-right: 10px;
+   transition: all 0.9s;
+}
+
+.cards .true-false .true{
+    background-color: #0f03;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-size: 30px;
+
+}
+
+.cards .true-false .true:hover{
+    background-color: green;
+}
+
+.cards .true-false .false{
+    background-color:#f003;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.cards .true-false .false:hover{
+    background-color: red;
+}
+
+.cards .true-false .false a{
+    text-decoration-line: none;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    background-size: auto;
+}
+.cards .true-false .false a:hover{
+    color: white;
+    background-color: red;   
+}
+.cards .true-false .true a{
+    text-decoration-line: none;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cards .true-false .true a:hover{
+    color: white;
+    background-color: green;
+}
+
+
+ 
+

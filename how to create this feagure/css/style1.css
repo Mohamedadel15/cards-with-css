@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    
+}
+header{
+    background-color: rgb(0, 204, 255);
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    
+
+}
+
+header nav .home{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1.5px;
+    color: rgb(240, 248, 255);
+    margin: 0 0 0 200px;   
+    text-transform: uppercase;
+    transition: all 0.7s;
+}
+
+header nav .search{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(240, 248, 255);
+    margin: 0 0 0 -1100px;   
+    text-transform: uppercase;
+    flex-wrap:wrap-reverse;
+    transition: all 0.7s;
+}
+
+header nav .logout{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(240, 248, 255);
+    margin: 0 50px 0 0;   
+    text-transform: lowercase;
+    transition: all 0.7s;
+}
+header nav .home:hover,header nav .logout:hover,header nav .search:hover{
+    color: rgb(255, 178, 10);
+
+}
+body section{
+    background-color:rgb(255, 255, 255);
+    height: 88vh;
+    display: flex;
+    flex-direction: row;
+}
+body section .menu{
+    width: 30%;
+    height: 100%;
+    background-color:#004c4cbb;
+    border-radius: 20px;
+    border: #CED5D5 solid 1px;
+    box-shadow:#004c4cbb;
+}
+
+body section .content{
+    width: 70%;
+    height: 100%;
+    background-color:#CED5D5;
+    border-radius: 20px ;
+    
+}
+body section .menu h2{
+    font-size: 40px;
+    color: rgb(68, 43, 43);
+    letter-spacing: 1px;
+    margin: 100px 100px 0 0;
+    display: flex;
+    justify-content: center;
+    
+}
+body section .content h2{
+    font-size: 40px;
+    color: rgb(138, 125, 125);
+    letter-spacing: 1px;
+    margin: 100px 100px 0 0;
+    display: flex;
+    justify-content: center;
+    
+}
+body footer{
+    background-color: rgb(0, 204, 255);
+    border-radius: 10px;
+    height: 50px;
+    border: 1px solid white;
+}
+footer nav{
+    display: flex;
+    justify-content: center;
+}
+footer nav .foter{
+    margin-top: 10px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold  ;
+    color: rgb(240, 248, 255);
+    font-style: italic;
+    transition: all 0.7s;
+}
+footer nav .foter:hover{
+    color: rgb(255, 178, 10);
+}
+.menu .audio .audio2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 50px 20px;
+}

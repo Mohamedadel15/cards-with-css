@@ -1,0 +1,40 @@
+.card{
+    margin: 150px auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    width: 350px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow:3px 3px 3px 3px rgba(97, 96, 96, 0.329)  ;
+    align-items: center;
+   
+}
+.card .img img{
+    padding: 0;
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+}
+.card .para p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.card .button{
+    margin: 0 10px 0 50px;
+    
+}
+.card .button button{
+   background-color: white;
+   border: none;
+   font-size: 20px;
+   color: rgb(71, 69, 69);
+   cursor: pointer;
+   transition: all 0.3s;
+}
+.card .button button:hover{
+    font-size: 30px;
+}
